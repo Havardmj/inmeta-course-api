@@ -69,7 +69,6 @@ public class LoadingTestData implements ApplicationListener<ApplicationReadyEven
                         TestData.aParticipant(),
                         TestData.addSiljeParticipant(),
                         TestData.addBjornParticipant(),
-                        TestData.addIvarParticipant(),
                         TestData.addOlaNormanParticipant(),
                         TestData.addNilsParticipant(),
                         TestData.addGustavsenParticipant()

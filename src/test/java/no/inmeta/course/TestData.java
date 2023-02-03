@@ -77,7 +77,7 @@ public class TestData {
     }
 
     public static Participant aParticipant() {
-        return new Participant(UUID.randomUUID(), "Ole", "Hansen", "olehansen@online.no");
+        return new Participant(UUID.randomUUID(), "Svein", "Halvorsen", "sveinhalvorsen@online.no");
     }
 
     public static Participant anotherParticipant() {

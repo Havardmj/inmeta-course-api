@@ -79,15 +79,7 @@ public class Course {
         this.courseBegin = courseBegin;
         this.courseEnd = courseEnd;
     }
-
-    public List<String> findUsingStream(String search, List<String> list) {
-        List<String> matchingElements = list.stream()
-                .filter(str -> str.trim().contains(search))
-                .collect(Collectors.toList());
-
-        return matchingElements;
-    }
-
+    
     private boolean matchVaule(String matchValue, String searchKey) {
         return matchValue.trim().toLowerCase().contains(searchKey.trim().toLowerCase());
     }
